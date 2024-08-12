@@ -1,4 +1,12 @@
-<div class="side-panel-container">
-    <div class="side-panel">
+<div class="side-panel-container" >
+    <div class="side-bar" [ngClass]="{ 'compress-view': compressView }">
+        <div class="header">
+            <img class="logo" src="assests/images/logo.svg" (click)="changeView()"/>
+            <div class="title">Docks</div>
+        </div>
+        <div class="options">Option #1</div>
+        <div class="options">Option #2</div>
+        <div class="options">Option #3</div>
+        <div class="options">Option #4</div>
     </div>
-</div>>
+</div>
